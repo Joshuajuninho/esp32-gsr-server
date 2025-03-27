@@ -1,0 +1,47 @@
+# Ignore .NET / Mono / Visual Studio files
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.suo
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.log
+*.bak
+*.swp
+
+# Unity specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]ser[Ss]ettings/
+
+# Ignore generated lightmap and GI cache
+[Ll]ightmapSnapshot
+[Ll]ightingData.asset
+[GI]Cache/
+
+# Ignore Play mode and Editor settings
+[Tt]emp/
+[Uu]ser[Ss]ettings/
+
+# Ignore Cache files
+[Cc]ache/
+[Cc]achedAsset/
+[Cc]rashReports/
+
+# Ignore Visual Scripting files
+*.generated
+*.VisualScripting/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
